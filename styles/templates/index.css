@@ -7,8 +7,9 @@
 
 body {
   max-width: 1200px;
-  margin: 15px auto;
-  background: var(--bg-color);
+  margin: 0 auto;
+  background: var(--color-bg);
+  padding: 15px;
 }
 
 main {
