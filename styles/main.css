@@ -1,0 +1,7 @@
+@import 'global/vars.css';
+@import 'global/typograpjhy.css';
+
+@import 'theme/header.css';
+@import 'theme/footer.css';
+
+@import 'templates/index.css';
