@@ -1,0 +1,57 @@
+:root {
+  --bg-color: #FBE968;
+}
+
+@font-face {
+  font-family: "Agipo Mono";
+  src: url("fonts/agipo-mono.otf") format("otf");
+}
+
+@font-face {
+  font-family: "BL Arctic";
+  src: url("fonts/BL-Arctic.otf") format("otf");
+}
+
+@font-face {
+	font-family: 'LiteralGrotesk';
+	src: url('LiteralGrotesk-Black.otf') format('otf');
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'LiteralGrotesk';
+	src: url('LiteralGrotesk-Bold.otf') format('otf');
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'LiteralGrotesk';
+	src: url('LiteralGrotesk-Medium.otf') format('otf');
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'LiteralGrotesk';
+	src: url('LiteralGrotesk-Regular.otf') format('otf');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'LiteralGrotesk';
+	src: url('LiteralGrotesk-Regular.otf') format('otf');
+	font-weight: bold;
+}
+
+#lift-off-logo {
+  position: absolute;
+  z-index: -99;
+  width: 105vw;
+  left: 0;
+}
+
+#pnca-logo {
+  width: 200px;
+}
+
+body {
+  max-width: 1200px;
+  margin: 15px auto;
+  background: var(--bg-color);
+}
