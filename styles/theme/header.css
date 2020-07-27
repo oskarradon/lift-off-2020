@@ -6,6 +6,7 @@ header {
 
 #pnca-logo {
   width: 150px;
+  fill: var(--color-text);
 }
 
 header button {
@@ -16,4 +17,5 @@ header button {
   text-transform: uppercase;
   align-self: center;
   border: none;
+  color: var(--color-text);
 }

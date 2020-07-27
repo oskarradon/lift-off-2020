@@ -5,3 +5,15 @@
 @import 'theme/footer.css';
 
 @import 'templates/index.css';
+
+a:visited {
+  color: var(--color-text);
+}
+
+a:hover {
+  color: var(--color-main);
+}
+
+a {
+  text-decoration: none;
+}
