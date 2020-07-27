@@ -1,36 +1,39 @@
 @font-face {
-  font-family: "Agipo Mono";
-  src: url("fonts/agipo-mono.otf") format("otf");
+  font-family: "AgipoMono";
+  src: url("fonts/agipo-mono.otf") format("opentype");
 }
 
 @font-face {
-  font-family: "BL Arctic";
-  src: url("fonts/BL-Arctic.otf") format("otf");
+  font-family: "BLArctic";
+  src: url("fonts/BL-Arctic.otf") format("opentype");
 }
 
 @font-face {
-	font-family: 'LiteralGrotesk';
-	src: url('LiteralGrotesk-Black.otf') format('otf');
-	font-weight: normal;
-}
-@font-face {
-	font-family: 'LiteralGrotesk';
-	src: url('LiteralGrotesk-Bold.otf') format('otf');
-	font-weight: normal;
-}
-@font-face {
-	font-family: 'LiteralGrotesk';
-	src: url('LiteralGrotesk-Medium.otf') format('otf');
-	font-weight: bold;
-}
-@font-face {
-	font-family: 'LiteralGrotesk';
-	src: url('LiteralGrotesk-Regular.otf') format('otf');
-	font-weight: bold;
+	font-family: "LiteralGrotesk";
+	src: url("fonts/LiteralGrotesk-Regular.otf") format("opentype");
+	font-weight: 400;
 }
 
 @font-face {
-	font-family: 'LiteralGrotesk';
-	src: url('LiteralGrotesk-Regular.otf') format('otf');
-	font-weight: bold;
+	font-family: "LiteralGrotesk";
+	src: url("fonts/LiteralGrotesk-Medium.otf") format("opentype");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "LiteralGrotesk";
+	src: url("fonts/LiteralGrotesk-SemiBold.otf") format("opentype");
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "LiteralGrotesk";
+	src: url("fonts/LiteralGrotesk-Bold.otf") format("opentype");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "LiteralGrotesk";
+	src: url("fonts/LiteralGrotesk-Black.otf") format("opentype");
+	font-weight: 900;
 }

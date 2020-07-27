@@ -11,6 +11,7 @@ body {
   background: var(--color-bg);
   padding: 15px;
   color: var(--color-text);
+  font-family: "AgipoMono", Helvetica, sans-serif;
 }
 
 main {
