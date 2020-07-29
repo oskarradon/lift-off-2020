@@ -6,7 +6,7 @@ nav {
 }
 
 #pnca-logo {
-  width: 100px;
+  width: 120px;
   fill: var(--color-text);
 }
 
@@ -42,11 +42,11 @@ header #data {
   grid-gap: 1em;
 	grid-template-columns: 1fr;
   margin: 2em 0;
-  line-height: 1.5em;
 }
 
 @media (min-width: 800px) {
   header #data {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2em;
   }
 }

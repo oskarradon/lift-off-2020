@@ -1,10 +1,15 @@
 footer {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 1em;
   font-family: var(--font-mono);
 }
 
+@media (min-width: 800px) {
+  footer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 footer p a {
   color: var(--color-text);
