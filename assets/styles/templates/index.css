@@ -1,12 +1,7 @@
 body {
-  max-width: 1200px;
-  margin: 0 auto;
   background: url(/assets/img/bg/lift-off.svg) var(--color-bg);
   background-repeat: no-repeat;
   background-size: 105vw;
-  padding: 15px;
-  color: var(--color-text);
-  font-family: var(--font-sans);
 }
 
 a:hover > *, a:active > * {
@@ -48,7 +43,8 @@ main a h2 {
 }
 
 #description .bar {
-  background: var(--color-main);
+  background: url(/assets/img/bg/1.png) var(--color-main);
+  background-position: bottom;
   font-size: 1.6em;
   padding: .1em .2em;
   text-transform: uppercase;
@@ -74,7 +70,7 @@ main a h2 {
 }
 
 #description #launching {
-  margin-right: 40vw;
+  margin-right: 20vw;
 }
 
 #description #next {
@@ -93,6 +89,6 @@ main a h2 {
 }
 
 #description #illustrators {
-  margin-right: 30vw;
+  margin-right: 10vw;
   margin-left: 10vw;
 }

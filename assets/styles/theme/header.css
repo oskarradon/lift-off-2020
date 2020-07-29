@@ -16,22 +16,15 @@ nav {
   }
 }
 
-header button {
+header #sign-up {
   background: var(--color-main);
-  /* background: url('/assets/img/bg/1.png') var(--color-main); */
-  background-size: cover;
   padding: 15px;
-  height: 3em;
-  font-size: 1em;
   text-transform: uppercase;
   align-self: center;
-  border: none;
-  color: var(--color-text);
-  font-family: var(--font-sans);
   font-weight: 600;
 }
 
-header button:hover, header button:active {
+header #sign-up:hover, header #sign-up:active {
   color: var(--color-bg);
   cursor: pointer;
 }
