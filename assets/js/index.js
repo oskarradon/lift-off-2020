@@ -1,8 +1,14 @@
+function twoDigits(n){
+  if(n < 10)
+    return '0' + n; // Add leading zero
+  return n;
+}
+
 function updateTime(){
   var today = new Date();
-  var hr = today.getHours();
-  var min = today.getMinutes();
-  var sec = today.getSeconds();
+  var hr = twoDigits(today.getHours());
+  var min = twoDigits(today.getMinutes());
+  var sec = twoDigits(today.getSeconds());
   var ap = (hr < 12) ? "<span>AM</span>" : "<span>PM</span>";
   hr = (hr == 0) ? 12 : hr;
   hr = (hr > 12) ? hr - 12 : hr;
