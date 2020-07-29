@@ -4,15 +4,14 @@ body {
   background: var(--color-bg);
   padding: 15px;
   color: var(--color-text);
-  font-family: "AgipoMono", Helvetica, sans-serif;
+  font-family: var(--font-sans);
 }
 
 #lift-off-logo {
   position: absolute;
   z-index: -99;
-  width: 105vw;
+  width: calc(100vw - 20px);
   left: 0;
-  overflow: hidden;
 }
 
 main {
@@ -33,10 +32,14 @@ main a h2 {
   color: var(--color-text);
 }
 
-main a:hover h2 {
+main a:hover h2, main a:active h2 {
   color: var(--color-main);
 }
 
 .img-top {
   object-position: top;
+}
+
+#description .bar {
+  background:
 }

@@ -2,4 +2,7 @@
   --color-bg:     #FBE968;
   --color-main:   #FF3D20;
   --color-text:   #222;
+
+  --font-sans: "LiteralGrotesk", Helvetica, sans-serif;
+  --font-mono: "AgipoMono", Courier, monospace;
 }
