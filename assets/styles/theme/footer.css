@@ -4,3 +4,8 @@ footer {
   grid-gap: 1em;
   font-family: var(--font-mono);
 }
+
+
+footer p a {
+  color: var(--color-text);
+}
