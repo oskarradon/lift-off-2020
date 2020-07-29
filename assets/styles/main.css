@@ -4,8 +4,6 @@
 @import 'theme/header.css';
 @import 'theme/footer.css';
 
-@import 'templates/index.css';
-
 a:visited {
   color: var(--color-text);
 }
@@ -16,4 +14,13 @@ a:hover {
 
 a {
   text-decoration: none;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  background: var(--color-bg);
 }
