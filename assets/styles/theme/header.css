@@ -12,6 +12,8 @@ nav {
 
 header button {
   background: var(--color-main);
+  /* background: url('/assets/img/bg/1.png') var(--color-main); */
+  background-size: cover;
   padding: 15px;
   height: 3em;
   font-size: 1em;

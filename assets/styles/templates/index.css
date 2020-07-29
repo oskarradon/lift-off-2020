@@ -18,7 +18,6 @@ main {
   display: grid;
 	grid-gap: 1em;
 	grid-template-columns: repeat(auto-fill, minmax(400px, auto));
-	/* grid-auto-rows: minmax(26vh, 190px); */
 }
 
 main a img {
@@ -40,6 +39,22 @@ main a:hover h2, main a:active h2 {
   object-position: top;
 }
 
+#description {
+  margin-bottom: 3em;
+}
+
 #description .bar {
-  background:
+  display: grid;
+	grid-gap: 1em;
+	grid-template-columns: 1fr 1fr;
+  background: var(--color-main);
+  font-size: 3em;
+  padding: .1em .2em;
+  text-transform: uppercase;
+  color: var(--color-bg);
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
