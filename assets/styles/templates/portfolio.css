@@ -60,6 +60,7 @@ main section {
 
 main img {
   margin: 3em 0;
+  width: 100%;
 }
 
 wrapper {
@@ -79,8 +80,18 @@ wrapper.grid {
   grid-column: 3 / span 2;
 }
 
-.bg-grid {
-  margin-top: -15em;
-  z-index: -99;
-  position: relative;
+/* helper classes */
+
+.l-3, .os1, .l-4 {
+  grid-column: 1 / span 4;
+}
+
+@media (min-width: 800px) {
+  .l-3 {
+    grid-column: 1 / span 3;
+  }
+
+  .os1 {
+    grid-column: 2 / span 3;
+  }
 }

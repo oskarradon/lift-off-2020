@@ -37,6 +37,14 @@ header #data {
   margin: 2em 0;
 }
 
+header #data a {
+  color: var(--color-text);
+}
+
+header #data a:hover {
+  color: var(--color-main);
+}
+
 @media (min-width: 800px) {
   header #data {
     grid-template-columns: 1fr 1fr 1fr 1fr;
