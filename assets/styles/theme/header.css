@@ -6,14 +6,8 @@ nav {
 }
 
 #pnca-logo {
-  width: 120px;
+  width: 100px;
   fill: var(--color-text);
-}
-
-@media (min-width: 800px) {
-  #pnca-logo {
-    width: 150px;
-  }
 }
 
 header #sign-up {
