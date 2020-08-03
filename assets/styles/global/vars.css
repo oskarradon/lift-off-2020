@@ -4,6 +4,7 @@
   --color-text:   #222;
   --color-acc:    #F15A31; /* accent */
 
-  --font-sans: "LiteralGrotesk", Helvetica, sans-serif;
-  --font-mono: "AgipoMono", Courier, monospace;
+  --font-sans:    "LiteralGrotesk", Helvetica, sans-serif;
+  --font-mono:    "AgipoMono", Courier, monospace;
+  --font-display: "BLArctic",  "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
