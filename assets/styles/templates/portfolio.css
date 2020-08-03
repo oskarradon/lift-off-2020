@@ -80,7 +80,7 @@
 }
 
 .info .links li p {
-  color: #f15a31;
+  color: var(--color-acc);
   font-family: var(--font-mono);
   font-size: 12px;
   margin: 3px 0 0;
