@@ -11,7 +11,7 @@
 }
 
 .info .name {
-  font-family: "BLArctic";
+  font-family: var(--font-display);
   color: var(--color-main);
   line-height: 1em;
   margin: 0;
@@ -36,13 +36,16 @@
   }
 }
 
-.info .links {
-  list-style: none;
-  margin-top: 3em;
+.links {
   background: url(/assets/img/bg/1.png) #E5EAF3;
+  list-style: none;
   max-width: 480px;
-  z-index: -99;
   padding: 0;
+}
+
+.info .links {
+  margin-top: 3em;
+  z-index: -99;
   position: absolute;
   bottom: -345px;
 }
@@ -54,41 +57,39 @@
   }
 }
 
-.info .links li {
+.links li {
   padding: .5em;
-  /* font-size: 2em; */
   font-weight: 500;
   margin: 0;
 }
 
-.info .links li:not(:last-of-type) {
+.links li:not(:last-of-type) {
   padding-bottom: 0;
 }
 
 @media (min-width: 800px) {
-  .info .links li {
+  .links li {
     font-size: 2em;
   }
 }
 
-.info .links li a {
+.links li a {
   color: #92A8E4;
 }
 
-.info .links li a:hover {
+.links li a:hover {
   color: var(--color-main);
 }
 
-.info .links li p {
+.links li p {
   color: var(--color-acc);
   font-family: var(--font-mono);
   font-size: 12px;
   margin: 3px 0 0;
-  /* text-align: right; */
 }
 
 @media (min-width: 800px) {
-  .info .links li p {
+  .links li p {
     font-size: 15px;
   }
 }
@@ -191,4 +192,29 @@ wrapper.grid {
   .os1 {
     grid-column: 2 / span 3;
   }
+}
+
+#end {
+  position: relative;
+}
+
+#end h2 {
+  font-family: var(--font-display);
+  color: var(--color-main);
+  font-size: 3em;
+  margin: 0;
+}
+
+@media (min-width: 800px) {
+  #end h2 {
+    font-size: 4em;
+  }
+}
+
+#end .links {
+  display: inline-block;
+}
+
+#end nav {
+  margin-top: 3em;
 }
