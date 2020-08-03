@@ -9,20 +9,27 @@ nav {
   width: 100px;
 }
 
-header #sign-up {
+#sign-up {
   background: var(--color-main);
   padding: 15px;
   text-transform: uppercase;
   align-self: center;
   font-weight: 600;
+  width: 64px;
 }
 
-header #sign-up:hover, header #sign-up:active {
+@media (min-width: 800px) {
+  #sign-up {
+    width: auto;
+  }
+}
+
+#sign-up:hover, #sign-up:active {
   color: var(--color-bg);
   cursor: pointer;
 }
 
-header #data {
+#data {
   font-family: var(--font-mono);
   display: grid;
   grid-gap: 1em;
@@ -30,16 +37,16 @@ header #data {
   margin: 2em 0;
 }
 
-header #data a {
+#data a {
   color: var(--color-text);
 }
 
-header #data a:hover {
+#data a:hover {
   color: var(--color-main);
 }
 
 @media (min-width: 800px) {
-  header #data {
+  #data {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 2em;
   }

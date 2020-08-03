@@ -1,15 +1,40 @@
 .info {
-  margin: 0 0 -44em;
+  margin: 0 0 -5em;
   position: relative;
   z-index: 99;
 }
 
+@media (min-width: 800px) {
+  .info {
+    margin: 0 0 -44em;
+  }
+}
+
+
 .info .name {
   font-family: "BLArctic";
-  font-size: 15em;
   color: var(--color-main);
   line-height: 1em;
   margin: 0;
+  font-size: 5em;
+}
+
+@media (min-width: 800px) {
+  .info .name {
+    font-size: 15em;
+  }
+}
+
+.portrait {
+  width: 100%;
+  grid-column: 2 / span 3;
+}
+
+
+@media (min-width: 800px) {
+  .portrait {
+    grid-column: 3 / span 2;
+  }
 }
 
 .info .links {
@@ -17,16 +42,30 @@
   margin-top: 3em;
   background: url(/assets/img/bg/1.png) #E5EAF3;
   max-width: 480px;
-  position: relative;
   z-index: -99;
-  padding: 0 0 1em;
+  padding: 0;
+  position: absolute;
+  bottom: -345px;
+}
+
+@media (min-width: 800px) {
+  .info .links {
+    position: relative;
+    bottom: -100px;
+  }
 }
 
 .info .links li {
-  padding: .5em 0 0 .5em;
-  font-size: 2em;
+  padding: .5em;
+  /* font-size: 2em; */
   font-weight: 500;
   margin: 0;
+}
+
+@media (min-width: 800px) {
+  .info .links li {
+    font-size: 2em;
+  }
 }
 
 .info .links li a {
@@ -42,9 +81,23 @@
   color: #92A8E4;
   font-family: var(--font-mono);
   top: 10em;
-  left: 28em;
+  left: 80vw;
   z-index: -98;
   line-height: 1.6em;
+  font-size: 10px;
+}
+
+@media (min-width: 800px) {
+  .keywords {
+    position: absolute;
+    color: #92A8E4;
+    font-family: var(--font-mono);
+    top: 10em;
+    left: 28em;
+    z-index: -98;
+    line-height: 1.6em;
+    font-size: 1em;
+  }
 }
 
 .quote p span {
@@ -89,11 +142,6 @@ wrapper.grid {
   background: url(/assets/img/bg/grid.svg);
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-.portrait {
-  width: 100%;
-  grid-column: 3 / span 2;
 }
 
 .question {
