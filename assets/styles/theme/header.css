@@ -10,11 +10,7 @@ nav {
 }
 
 #sign-up {
-  background: var(--color-main);
-  padding: 15px;
-  text-transform: uppercase;
   align-self: center;
-  font-weight: 600;
   width: 64px;
 }
 
@@ -24,10 +20,6 @@ nav {
   }
 }
 
-#sign-up:hover, #sign-up:active {
-  color: var(--color-bg);
-  cursor: pointer;
-}
 
 #data {
   font-family: var(--font-mono);
