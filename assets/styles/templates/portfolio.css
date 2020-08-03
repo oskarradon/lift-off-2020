@@ -96,8 +96,19 @@
     left: 28em;
     z-index: -98;
     line-height: 1.6em;
-    font-size: 1em;
+    font-size: 18px;
   }
+}
+
+.bio {
+  padding: 2em;
+  background: white;
+  position: relative;
+  z-index: 99;
+}
+
+.bio p {
+  margin: 0;
 }
 
 .quote p span {
