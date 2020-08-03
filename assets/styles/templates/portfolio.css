@@ -96,6 +96,11 @@ wrapper.grid {
   grid-column: 3 / span 2;
 }
 
+.question {
+  font-style: oblique;
+  margin-top: 3em;
+}
+
 /* helper classes */
 
 .l-3, .os1, .l-4 {
