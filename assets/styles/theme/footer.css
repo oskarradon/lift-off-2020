@@ -3,6 +3,7 @@ footer {
   grid-template-columns: 1fr;
   grid-gap: 1em;
   font-family: var(--font-mono);
+  margin-top: 3em;
 }
 
 @media (min-width: 800px) {
