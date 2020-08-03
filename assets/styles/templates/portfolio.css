@@ -96,7 +96,7 @@
 
 .keywords {
   position: absolute;
-  color: #92A8E4;
+  color: var(--color-acc2);
   font-family: var(--font-mono);
   top: 10em;
   left: 80vw;
@@ -194,20 +194,66 @@ wrapper.grid {
   }
 }
 
+#big-quote {
+  position: relative;
+}
+
+.l-quote, .r-quote {
+  position: absolute;
+  font-family: var(--font-mono);
+  color: rgba(255, 61, 32, 0.7);
+  z-index: -99;
+  font-size: 6em;
+}
+
+.l-quote {
+  top: -20px;
+  left: -30px;
+}
+
+.r-quote {
+  bottom: -40px;
+  right: 0px;
+}
+
+@media (min-width: 800px) {
+  .l-quote, .r-quote {
+    font-size: 8em;
+  }
+  .l-quote {
+    top: -30px;
+    left: -40px;
+  }
+  .r-quote {
+    bottom: -20px;
+    right: 0px;
+  }
+}
+
 #end {
   position: relative;
 }
 
-#end h2 {
+#end h2, #big-quote h2 {
   font-family: var(--font-display);
-  color: var(--color-main);
   font-size: 3em;
   margin: 0;
+}
+
+#big-quote h2 {
+  color: var(--color-acc2);
+}
+
+#end h2 {
+  color: var(--color-main);
 }
 
 @media (min-width: 800px) {
   #end h2 {
     font-size: 4em;
+  }
+  #big-quote h2 {
+    font-size: 5em;
   }
 }
 
