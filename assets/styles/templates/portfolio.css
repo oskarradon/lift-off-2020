@@ -41,6 +41,7 @@
   list-style: none;
   max-width: 480px;
   padding: 0;
+  display: inline-block;
 }
 
 .info .links {
@@ -235,6 +236,21 @@ wrapper.grid {
   position: relative;
 }
 
+/* #end::before {
+  background: url(/assets/img/bg/lift-off.svg) var(--color-bg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  content: "";
+  width: calc(100vw - 2px);
+  height: 517px;
+  top: 0px;
+  left: -5px;
+  position: absolute;
+  display: inline-block;
+  z-index: -99;
+  overflow: hidden;
+} */
+
 #end h2, #big-quote h2 {
   font-family: var(--font-display);
   font-size: 3em;
@@ -256,10 +272,6 @@ wrapper.grid {
   #big-quote h2 {
     font-size: 5em;
   }
-}
-
-#end .links {
-  display: inline-block;
 }
 
 #end nav {
