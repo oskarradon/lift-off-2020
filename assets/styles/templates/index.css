@@ -16,7 +16,7 @@ main {
 
 @media (min-width: 800px) {
   main {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 2em;
     margin-top: 10em;
   }
@@ -46,7 +46,7 @@ main a h2 {
   background: url(/assets/img/bg/1.png) var(--color-main);
   background-position: bottom;
   font-size: 1.6em;
-  padding: .1em .2em;
+  padding: 1em;
   text-transform: uppercase;
   color: var(--color-bg);
   text-shadow:
