@@ -4,7 +4,7 @@
 
 This is a static site I designed and developed as part of an internship with the Communications Department at the Pacific Northwest College of Art in Summer of 2020.
 
-[View the site here](http://liftoffpnca.com)
+[View the site here](http://liftoffpnca.com).
 
 &copy; 2020 PNCA
 
