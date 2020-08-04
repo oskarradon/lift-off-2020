@@ -14,4 +14,16 @@ footer {
 
 footer p a {
   color: var(--color-text);
+  text-decoration: none;
+  background-image: linear-gradient(var(--color-main), var(--color-main)),
+    linear-gradient(var(--color-acc2), var(--color-acc2));
+  background-size: 100% 2px, 0 2px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .5s linear;
+}
+
+footer p a:hover {
+  background-size: 20px 2px, 0 2px, 100% 2px;
+  background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
 }
