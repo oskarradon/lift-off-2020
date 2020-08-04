@@ -196,18 +196,16 @@ wrapper.grid {
   margin-top: 3em;
 }
 
-/* helper classes */
-
-.l-3, .os1, .l-4 {
+img.left, img.right, img.full {
   grid-column: 1 / span 4;
 }
 
 @media (min-width: 800px) {
-  .l-3 {
+  img.left {
     grid-column: 1 / span 3;
   }
 
-  .os1 {
+  img.right {
     grid-column: 2 / span 3;
   }
 }
