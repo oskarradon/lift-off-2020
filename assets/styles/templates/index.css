@@ -16,7 +16,7 @@ main {
 
 @media (min-width: 800px) {
   main {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-column-gap: 2em;
     margin-top: 10em;
   }
