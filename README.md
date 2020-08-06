@@ -15,3 +15,4 @@ This is a static site I designed and developed as part of an internship with the
 - [ ] Re-size images
 - [ ] Index page re-design
 - [ ] alt text for all images AAH!!
+- [ ] Multimedia content
