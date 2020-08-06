@@ -59,7 +59,3 @@ body {
 .button:hover:before, .button:focus:before, .button:active:before {
   right: 0;
 }
-
-.info h1, #big-quote h2, #end h2 {
-  font-weight: normal;
-}

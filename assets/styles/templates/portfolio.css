@@ -324,3 +324,7 @@ img.left, img.right, img.full {
 #end nav {
   margin-top: 3em;
 }
+
+.info h1, #big-quote h2, #end h2 {
+  font-weight: normal;
+}
