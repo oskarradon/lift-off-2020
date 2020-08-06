@@ -289,7 +289,6 @@ img.left, img.right, img.full {
   position: absolute;
   display: inline-block;
   z-index: -99;
-  /* overflow: hidden; */
 }
 
 @media (min-width: 800px) {
