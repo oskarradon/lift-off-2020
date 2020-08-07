@@ -92,7 +92,7 @@ wrapper.texture {
 }
 
 main a article wrapper.texture .texture-bg {
-  background: url(/assets/img/bg/1.png) #E5EAF3;
+  background: url(/assets/img/bg/1.png);
   background-position: bottom;
   width: 100vw;
   margin: -100px 0 -270px 50px;
@@ -142,7 +142,6 @@ main a h2 {
   line-height: 90px;
   font-family: var(--font-display);
   font-weight: normal;
-  color: var(--color-acc2);
   place-self: baseline;
   display: inline;
   position: relative;
@@ -179,7 +178,7 @@ main a .button {
   z-index: 2;
   top: 15%;
   min-width: 108px;
-  right: 0px;
+  right: 15px;
 }
 
 @media (min-width: 800px) {
@@ -212,4 +211,22 @@ main a .portraits {
   main a .portraits img:first-child {
     grid-column-start: 2;
   }
+}
+
+/* helper classes */
+
+main a h2.blue {
+  color: var(--color-acc2);
+}
+
+main a article wrapper.texture .blue {
+  background-color:  #E5EAF3;
+}
+
+main a h2.red {
+  color: #FF7979;
+}
+
+main a article wrapper.texture .red {
+  background-color:  #F9EEFF;
 }
