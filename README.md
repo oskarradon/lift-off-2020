@@ -14,7 +14,14 @@ This is a static site I designed and developed as part of an internship with the
 
 - [x] Re-size images
 - [x] Index page re-design
+  - [ ] Three-line name articles
+  - [ ] More colors/classes
+  - [ ] Refactor colors into vars
+  - [ ] Make right styled article
+- [ ] Implement spelling fixes site-wide
+- [ ] Design and develop About page 
+- [ ] Fix portfolio page on medium view widths (needs more breakpoints)
 - [ ] alt text for all images AAH!!
-- [ ] Multimedia content
+- [ ] More multimedia content where possible
 - [ ] Make all portrait img W:600px, portrait2 & 3 W:300px @ 72 DPI
 - [ ] Test page load speed
