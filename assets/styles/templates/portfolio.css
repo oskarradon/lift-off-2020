@@ -195,9 +195,17 @@ wrapper {
 }
 
 wrapper.grid {
-  background: url(/assets/img/bg/grid.svg);
+  background: url(/assets/img/bg/grid2.svg);
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+@media (min-width: 800px) {
+  wrapper.grid {
+    background: url(/assets/img/bg/grid.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
 
 wrapper.video {

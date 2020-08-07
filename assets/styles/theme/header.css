@@ -9,9 +9,33 @@ nav {
   width: 100px;
 }
 
+#about {
+  background: #7FFAC4;
+  /* background: #E5EAF3; */
+  align-self: center;
+  margin: 0 15px 0 0;
+}
+
+#about:hover {
+  color: #7FABFA;
+}
+
 #sign-up {
   align-self: center;
   width: 64px;
+}
+
+@media (max-width: 350px) {
+  #buttons {
+    width: 100px;
+  }
+  #about, #sign-up {
+    float: right;
+  }
+
+  #about {
+    margin: 0 0 15px;
+  }
 }
 
 @media (min-width: 800px) {
