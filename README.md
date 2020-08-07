@@ -12,7 +12,9 @@ This is a static site I designed and developed as part of an internship with the
 
 ### To-do:
 
-- [ ] Re-size images
-- [ ] Index page re-design
+- [x] Re-size images
+- [x] Index page re-design
 - [ ] alt text for all images AAH!!
 - [ ] Multimedia content
+- [ ] Make all portrait img W:600px, portrait2 & 3 W:300px @ 72 DPI
+- [ ] Test page load speed
