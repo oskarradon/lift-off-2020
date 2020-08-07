@@ -66,6 +66,13 @@ main a article {
   position: relative;
 }
 
+@media (min-width: 800px) {
+  main a article {
+    background: url(/assets/img/bg/grid.svg) no-repeat 50px 200px;
+    background-size: calc(100% - 50px);
+  }
+}
+
 wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -87,7 +94,12 @@ main a article wrapper.texture .texture-bg {
   width: 100vw;
   margin: -100px 0 -270px 50px;
   z-index: 1;
-  /* background-position: 50px 50px; */
+}
+
+@media (min-width: 800px) {
+  main a article wrapper.texture .texture-bg {
+    margin: -310px 0 -270px 200px;
+  }
 }
 
 .portraits {
@@ -106,6 +118,12 @@ main a.left img.big {
   z-index: 2;
 }
 
+@media (min-width: 800px) {
+  main a.left img.big {
+    grid-column: 1 / span 2;
+  }
+}
+
 .img-top {
   object-position: top;
 }
@@ -116,30 +134,33 @@ main a h2 {
   font-family: var(--font-display);
   font-weight: normal;
   color: var(--color-acc2);
-  /* text-decoration: none;
-  background-image: linear-gradient(var(--color-main), var(--color-main)),
-    linear-gradient(var(--color-acc2), var(--color-acc2));
-  background-size: 100% 2px, 0 2px;
-  background-position: -100% -100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size .5s linear; */
   place-self: baseline;
   display: inline;
   position: relative;
   z-index: 2;
 }
 
-/* main a:hover h2 {
-  color: var(--color-main);
-  background-size: 20px 2px, 0 2px, 100% 2px;
-  background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
-} */
-
 @media (min-width: 800px) {
   main a h2 {
-    font-size: 15em;
+    text-decoration: none;
+    /* background-image: linear-gradient(var(--color-main), var(--color-main)),
+      linear-gradient(var(--color-acc2), var(--color-acc2));
+    background-size: 100% 2px, 0 2px;
+    background-position: -100% -100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 1s linear; */
+    font-size: 14em;
     line-height: 1em;
+    position: absolute;
+    left: 290px;
+    bottom: -500px;
   }
+
+  /* main a:hover h2 {
+    color: var(--color-main);
+    background-size: 20px 2px, 0 2px, 100% 2px;
+    background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
+  } */
 }
 
 main a .button {
@@ -151,8 +172,20 @@ main a .button {
 }
 
 main a .portraits {
-  grid-column: span 3;
   position: relative;
   z-index: 2;
   margin-top: 30px;
+}
+
+@media (min-width: 800px) {
+  main a .portraits {
+    max-width: 800px;
+    position: absolute;
+    position: absolute;
+    top: 320px;
+    right: 80px;
+  }
+  main a .portraits img:first-child {
+    grid-column-start: 2;
+  }
 }
