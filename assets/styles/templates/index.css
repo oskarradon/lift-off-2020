@@ -63,6 +63,7 @@ main a article {
   background: url(/assets/img/bg/grid2.svg) no-repeat 50px 50px;
   background-size: calc(100% - 50px);
   padding-bottom: 3em;
+  position: relative;
 }
 
 wrapper {
@@ -70,6 +71,23 @@ wrapper {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 1em;
   position: relative;
+}
+
+wrapper.texture {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  min-width: 50px;
+}
+
+main a article wrapper.texture .texture-bg {
+  background: url(/assets/img/bg/1.png) #E5EAF3;
+  background-position: bottom;
+  width: 100vw;
+  margin: -100px 0 -270px 50px;
+  z-index: 1;
+  /* background-position: 50px 50px; */
 }
 
 .portraits {
@@ -82,15 +100,10 @@ main a img {
   width: 100%;
 }
 
-main a article .inner {
-  background: url(/assets/img/bg/1.png) #E5EAF3;
-  background-position: bottom;
-  /* background-position: 50px 50px; */
-}
-
 main a.left img.big {
   grid-column: 1 / span 3;
   position: relative;
+  z-index: 2;
 }
 
 .img-top {
@@ -112,6 +125,8 @@ main a h2 {
   transition: background-size .5s linear; */
   place-self: baseline;
   display: inline;
+  position: relative;
+  z-index: 2;
 }
 
 /* main a:hover h2 {
@@ -128,9 +143,16 @@ main a h2 {
 }
 
 main a .button {
-  place-self: baseline;
+  position: absolute;
+  z-index: 2;
+  top: 15%;
+  min-width: 108px;
+  right: 0px;
 }
 
 main a .portraits {
   grid-column: span 3;
+  position: relative;
+  z-index: 2;
+  margin-top: 30px;
 }
