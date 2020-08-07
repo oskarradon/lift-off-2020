@@ -99,7 +99,13 @@ main a article wrapper.texture .texture-bg {
   z-index: 1;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 500px) {
+  main a article wrapper.texture .texture-bg {
+    margin: -310px 0 -400px 50px;
+  }
+}
+
+@media (min-width: 1200px) {
   main a article wrapper.texture .texture-bg {
     margin: -310px 0 -270px 200px;
   }
@@ -140,10 +146,24 @@ main a h2 {
   place-self: baseline;
   display: inline;
   position: relative;
-  z-index: 2;
+  z-index: 3;
+}
+
+@media (min-width: 500px) {
+  main a h2 {
+    font-size: 8em;
+    line-height: 1em;
+  }
 }
 
 @media (min-width: 800px) {
+  main a h2 {
+    font-size: 10em;
+    line-height: 1em;
+  }
+}
+
+@media (min-width: 1200px) {
   main a h2 {
     text-decoration: none;
     font-size: 14em;
@@ -165,8 +185,13 @@ main a .button {
 @media (min-width: 800px) {
   main a .button {
     top: inherit;
-    bottom: -100px;
+    bottom: 130px;
     right: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  main a .button {
+    bottom: -100px;
   }
 }
 
