@@ -5,7 +5,7 @@ body {
 }
 
 #description {
-  margin-bottom: 3em;
+  margin-bottom: 7em;
 }
 
 #description .bar {
@@ -64,12 +64,14 @@ main a article {
   background-size: calc(100% - 50px);
   padding-bottom: 3em;
   position: relative;
+  margin-bottom: 100px;
 }
 
 @media (min-width: 800px) {
   main a article {
     background: url(/assets/img/bg/grid.svg) no-repeat 50px 200px;
     background-size: calc(100% - 50px);
+    margin-bottom: 500px;
   }
 }
 
@@ -169,6 +171,14 @@ main a .button {
   top: 15%;
   min-width: 108px;
   right: 0px;
+}
+
+@media (min-width: 800px) {
+  main a .button {
+    top: inherit;
+    bottom: -100px;
+    right: 30px;
+  }
 }
 
 main a .portraits {
