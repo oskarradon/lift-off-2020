@@ -2,7 +2,7 @@
 
 *Lift Off is a portfolio showcase for the graduating class of PNCA's Illustration and Design programs.*
 
-This is a static site I designed and developed as part of an internship with the Graphic Design & Illustration Departments at the Pacific Northwest College of Art in Summer of 2020.
+This is a static site I designed and developed as part of an internship with the Graphic Design Department at the Pacific Northwest College of Art in Summer of 2020.
 
 [View the site here](http://liftoffpnca.com).
 
