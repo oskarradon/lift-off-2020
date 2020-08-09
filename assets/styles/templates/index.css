@@ -76,6 +76,12 @@ main a article {
   }
 }
 
+@media (min-width: 1200px) {
+  main a article {
+    padding-bottom: 8em;
+  }
+}
+
 wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
