@@ -109,15 +109,23 @@ main a article wrapper.texture .texture-bg {
   z-index: 1;
 }
 
+main a article wrapper.texture .three-line {
+  margin-bottom: -370px;
+}
+
 @media (min-width: 500px) {
   main a article wrapper.texture .texture-bg {
     margin: -310px 0 -400px 50px;
+  }
+
+  main a article wrapper.texture .three-line {
+    margin-bottom: -500px;
   }
 }
 
 @media (min-width: 1200px) {
   main a article wrapper.texture .texture-bg {
-    margin: -310px 0 -270px 200px;
+    margin: -310px 0 -520px 200px;
   }
 }
 
