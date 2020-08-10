@@ -29,4 +29,4 @@ This is a static site I designed and developed as part of an internship with the
 - [ ] Implement 'two-up' portfolio image style elsewhere in site
 - [x] Implement 'three-up' and 4-up(?) portrait image module on more portfolio pages
 - [ ] SEO?
-- [ ] main article image on index page should be background image w/ crop so height varies less
+- [x] main article image on index page should be background image w/ crop so height varies less
