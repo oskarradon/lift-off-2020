@@ -14,10 +14,10 @@ This is a static site I designed and developed as part of an internship with the
 
 - [x] Re-size images
 - [x] Index page re-design
-  - [ ] Three-line name articles
-  - [ ] More colors/classes
+  - [x] Three-line name articles
+  - [x] More colors/classes
   - [ ] Refactor colors into vars
-  - [ ] Make right styled article
+  - [ ] ~Make right styled article~
 - [x] Implement spelling fixes site-wide
 - [ ] Design and develop About page
 - [ ] Fix portfolio page on medium view widths (needs more breakpoints)
