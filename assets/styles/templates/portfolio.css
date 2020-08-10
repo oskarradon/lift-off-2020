@@ -343,6 +343,7 @@ img.left, img.right, img.full, img.two-up {
   font-family: var(--font-display);
   font-size: 3em;
   margin: 0;
+  font-style: normal;
 }
 
 #big-quote h2 {
