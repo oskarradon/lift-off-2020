@@ -239,6 +239,17 @@ wrapper.video iframe {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media (min-width: 800px) {
+  .three-up {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  .three-up figure:first-child {
+    grid-column: 2 / auto;
+  }
+}
+
+
 img.left, img.right, img.full, img.two-up {
   grid-column: 1 / span 4;
 }
