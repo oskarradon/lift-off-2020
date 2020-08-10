@@ -28,3 +28,4 @@ This is a static site I designed and developed as part of an internship with the
 - [ ] Upscale Kalila/10.jpg
 - [ ] Implement 'two-up' portfolio image style elsewhere in site
 - [ ] Implement 'three-up' and 4-up(?) portrait image module on more portfolio pages
+- [ ] SEO?
