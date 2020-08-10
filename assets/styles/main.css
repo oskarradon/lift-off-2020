@@ -59,3 +59,12 @@ body {
 .button:hover:before, .button:focus:before, .button:active:before {
   right: 0;
 }
+
+.portraits figure {
+  margin: 0;
+}
+
+.portraits figure figcaption {
+  text-align: right;
+  font-size: .8em;
+}
