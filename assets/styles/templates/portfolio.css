@@ -231,19 +231,30 @@ wrapper.video iframe {
   margin-top: 3em;
 }
 
+.portraits {
+  grid-gap: 1em;
+}
+
+@media (min-width: 800px) {
+  .portraits {
+    grid-gap: 2em;
+  }
+}
+
 .portraits figure img {
   margin-bottom: 1em;
 }
 
 .three-up {
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
 }
 
 @media (min-width: 800px) {
   .three-up {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  
+
   .three-up figure:first-child {
     grid-column: 2 / auto;
   }
