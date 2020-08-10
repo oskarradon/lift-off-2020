@@ -26,7 +26,7 @@ This is a static site I designed and developed as part of an internship with the
 - [x] Make all portrait img W:600px, portrait2 & 3 W:300px @ 72 DPI
 - [ ] Test page load speed
 - [ ] Upscale Kalila/10.jpg
-- [ ] Implement 'two-up' portfolio image style elsewhere in site
+- [x] Implement 'two-up' portfolio image style elsewhere in site
 - [x] Implement 'three-up' and 4-up(?) portrait image module on more portfolio pages
 - [ ] SEO?
 - [x] main article image on index page should be background image w/ crop so height varies less
