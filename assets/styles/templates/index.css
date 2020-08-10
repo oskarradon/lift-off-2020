@@ -206,6 +206,19 @@ main a .portraits {
   margin-top: 30px;
 }
 
+main a .portraits figure {
+  margin: 0;
+}
+
+main a .portraits figure figcaption {
+  text-align: right;
+  font-size: .8em;
+}
+
+main a:hover .portraits figure figcaption {
+  color: black;
+}
+
 @media (min-width: 800px) {
   main a .portraits {
     max-width: 800px;
@@ -214,7 +227,7 @@ main a .portraits {
     top: 320px;
     right: 80px;
   }
-  main a .portraits img:first-child {
+  main a .portraits figure:first-child {
     grid-column-start: 2;
   }
 }
