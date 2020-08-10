@@ -25,3 +25,4 @@ This is a static site I designed and developed as part of an internship with the
 - [ ] More multimedia content where possible
 - [ ] Make all portrait img W:600px, portrait2 & 3 W:300px @ 72 DPI
 - [ ] Test page load speed
+- [ ] Upscale Kalila/10.jpg
