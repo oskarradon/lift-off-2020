@@ -60,6 +60,10 @@ body {
   margin-left: 10vw;
 }
 
+main a:hover article .portraits figure figcaption {
+  color: var(--color-text);
+}
+
 main a article {
   background: url(/assets/img/bg/grid2.svg) no-repeat 50px 50px;
   background-size: calc(100% - 50px);
