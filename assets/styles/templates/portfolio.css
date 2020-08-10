@@ -231,7 +231,7 @@ wrapper.video iframe {
   margin-top: 3em;
 }
 
-img.left, img.right, img.full {
+img.left, img.right, img.full, img.two-up {
   grid-column: 1 / span 4;
 }
 
@@ -242,6 +242,10 @@ img.left, img.right, img.full {
 
   img.right {
     grid-column: 2 / span 3;
+  }
+
+  img.two-up {
+    grid-column: auto / span 2;
   }
 }
 
