@@ -231,6 +231,14 @@ wrapper.video iframe {
   margin-top: 3em;
 }
 
+.portraits figure img {
+  margin-bottom: 1em;
+}
+
+.three-up {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 img.left, img.right, img.full, img.two-up {
   grid-column: 1 / span 4;
 }
