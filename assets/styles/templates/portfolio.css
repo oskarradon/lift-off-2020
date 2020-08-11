@@ -284,6 +284,33 @@ img.left, img.right, img.full, img.two-up {
   position: relative;
 }
 
+#big-quote h2 {
+  font-family: var(--font-display);
+  font-size: 3em;
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+}
+
+#big-quote h2 {
+  color: var(--color-acc2);
+}
+
+@media (min-width: 600px) {
+  #big-quote h2 {
+    font-size: 5em;
+  }
+}
+
+@media (min-width: 1200px) {
+  #big-quote {
+    max-width: none;
+  }
+  #big-quote h2 {
+    font-size: 7em;
+  }
+}
+
 .l-quote, .r-quote {
   position: absolute;
   font-family: var(--font-mono);
@@ -340,15 +367,11 @@ img.left, img.right, img.full, img.two-up {
   }
 }
 
-#end h2, #big-quote h2 {
+#end h2 {
   font-family: var(--font-display);
   font-size: 3em;
   margin: 0;
   font-style: normal;
-}
-
-#big-quote h2 {
-  color: var(--color-acc2);
 }
 
 #end h2 {
@@ -359,15 +382,12 @@ img.left, img.right, img.full, img.two-up {
   #end h2 {
     font-size: 4em;
   }
-  #big-quote h2 {
-    font-size: 5em;
-  }
 }
 
 #end nav {
   margin-top: 3em;
 }
 
-.info h1, #big-quote h2, #end h2 {
+.info h1, #end h2 {
   font-weight: normal;
 }
