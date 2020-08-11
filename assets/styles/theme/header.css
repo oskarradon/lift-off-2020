@@ -65,7 +65,7 @@ nav {
 
 #drop-down {
   display: none;
-  max-height: 100vw;
+  max-height: calc(100vh - 195px);
   overflow: auto;
   background: #5F4BFF;
   filter: brightness(120%);
