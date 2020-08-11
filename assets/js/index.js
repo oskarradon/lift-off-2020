@@ -33,12 +33,13 @@ setInterval(updateTime, 500);
 
 let button = document.querySelector('#talent');
 let menu = document.querySelector('#drop-down');
-button.addEventListener('click',() => {
-   if(menu.style.display===""){
+button.addEventListener('click', () => {
+   if(  menu.style.display === "" ) {
       menu.style.display="block";
       button.setAttribute('aria-expanded', true);
       menu.hidden = false;
       document.querySelector('#caret').classList.add('rotated');
+      console.log(document.querySelector('#caret').classList);
    } else {
       menu.style.display="";
       button.setAttribute('aria-expanded', false);

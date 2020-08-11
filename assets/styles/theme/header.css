@@ -76,13 +76,12 @@ nav {
 }
 
 #caret {
-  transform: rotate(-90deg);
   display: inline-block;
-  transition: transform 1s linear;
+  transition: transform .5s linear;
 }
 
 .rotated {
-  transform: rotate(0deg);
+  transform: rotate(90deg);
 }
 
 @media (min-width: 800px) {
