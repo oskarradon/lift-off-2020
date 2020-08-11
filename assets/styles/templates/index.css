@@ -96,6 +96,10 @@ main a article {
   main a article {
     padding-bottom: 12em;
   }
+
+  main a.three-line article {
+    padding-bottom: 24em;
+  }
 }
 
 wrapper {
@@ -121,7 +125,7 @@ main a article wrapper.texture .texture-bg {
   z-index: 1;
 }
 
-main a article wrapper.texture .three-line {
+main a.three-line article wrapper.texture .texture-bg {
   margin-bottom: -370px;
 }
 
@@ -130,7 +134,7 @@ main a article wrapper.texture .three-line {
     margin: -310px 0 -400px 50px;
   }
 
-  main a article wrapper.texture .three-line {
+  main a.three-line article wrapper.texture .texture-bg {
     margin-bottom: -500px;
   }
 }
@@ -140,8 +144,8 @@ main a article wrapper.texture .three-line {
     margin: -310px 0 -390px 200px;
   }
 
-  main a article wrapper.texture .three-line {
-    margin-bottom: -590px;
+  main a.three-line article wrapper.texture .texture-bg {
+    margin-bottom: -620px;
   }
 }
 
@@ -215,8 +219,8 @@ main a h2 {
     left: 100px;
     bottom: -350px;
   }
-  main a h2.three-line {
-    bottom: -560px;
+  main a.three-line h2 {
+    bottom: -380px;
   }
 }
 
@@ -250,7 +254,7 @@ main a .button {
 
 @media (min-width: 1200px) {
   main a .button {
-    bottom: -100px;
+    bottom: -130px;
   }
 }
 
@@ -279,26 +283,26 @@ main a #tom figure:first-child {
 
 /* helper classes */
 
-main a h2.blue {
+main a.blue h2 {
   color: var(--color-acc2);
 }
 
-main a article wrapper.texture .blue {
+main a.blue article wrapper.texture .texture-bg {
   background-color:  #E5EAF3;
 }
 
-main a h2.red {
+main a.red h2 {
   color: #FF7979;
 }
 
-main a article wrapper.texture .red {
+main a.red article wrapper.texture .texture-bg {
   background-color:  #F9EEFF;
 }
 
-main a h2.green {
+main a.green h2 {
   color: #3CD39E;
 }
 
-main a article wrapper.texture .green {
+main a.green article wrapper.texture .texture-bg {
   background-color:  #C3E2CF;
 }
