@@ -9,39 +9,51 @@ nav {
   width: 100px;
 }
 
-#about {
-  background: #7FFAC4;
-  /* background: #E5EAF3; */
+ {
   align-self: center;
-  margin: 0 15px 0 0;
 }
 
-#about:hover {
+#about {
+  background: #7FFAC4;
+}
+
+#about:hover, #talent:hover {
   color: var(--color-bg);
 }
 
+#about, #sign-up {
+  margin-bottom: 15px;
+}
+
 #sign-up {
-  align-self: center;
   width: 64px;
 }
 
-@media (max-width: 350px) {
-  #buttons {
-    width: 100px;
-  }
-  #about, #sign-up {
-    float: right;
-  }
+#talent {
+  background: #5F4BFF;
+}
 
-  #about {
-    margin: 0 0 15px;
-  }
+#buttons {
+  width: 128px;
+}
+
+#buttons a {
+  float: right;
+  text-align: center;
+  width: 100%
 }
 
 @media (min-width: 800px) {
   #sign-up {
     width: auto;
   }
+  #about, #sign-up {
+    margin: 0 0 15px;
+  }
+}
+
+#drop-down {
+  display: none;
 }
 
 #data {
