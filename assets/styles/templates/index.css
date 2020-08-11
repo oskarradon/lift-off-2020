@@ -66,10 +66,16 @@ body {
   #description #designers {
     margin-right: 20vw;
   }
+
   #description #and {
     margin-left: 15vw;
   }
 }
+
+@media (min-width: 1200px) {
+  #description #next {
+    margin-left: 15vw;
+  }
 
 main a:hover article .portraits figure figcaption,
 main a article .portraits figure figcaption {
