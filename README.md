@@ -30,4 +30,7 @@ This is a static site I designed and developed as part of an internship with the
 - [x] Implement 'three-up' and 4-up(?) portrait image module on more portfolio pages
 - [ ] SEO?
 - [x] main article image on index page should be background image w/ crop so height varies less
-- [ ] Drop-down menu of each person's name
+- [x] Drop-down menu of each person's name
+  - [ ] Caret rotating animation
+  - [ ] Test on mobile
+  - [ ] Button hover animation
