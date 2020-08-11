@@ -62,6 +62,13 @@ body {
     margin-left: 24vw;
     display: inline;
   }
+
+  #description #designers {
+    margin-right: 20vw;
+  }
+  #description #and {
+    margin-left: 15vw;
+  }
 }
 
 main a:hover article .portraits figure figcaption,
@@ -130,7 +137,11 @@ main a article wrapper.texture .three-line {
 
 @media (min-width: 1200px) {
   main a article wrapper.texture .texture-bg {
-    margin: -310px 0 -520px 200px;
+    margin: -310px 0 -390px 200px;
+  }
+
+  main a article wrapper.texture .three-line {
+    margin-bottom: -590px;
   }
 }
 
@@ -195,14 +206,17 @@ main a h2 {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1200px) {
   main a h2 {
     text-decoration: none;
     font-size: 14em;
     line-height: 1em;
     position: absolute;
     left: 100px;
-    bottom: -500px;
+    bottom: -350px;
+  }
+  main a h2.three-line {
+    bottom: -560px;
   }
 }
 
@@ -223,10 +237,17 @@ main a .button {
 @media (min-width: 800px) {
   main a .button {
     top: inherit;
-    bottom: 130px;
+    bottom: 80px;
     right: 30px;
   }
 }
+
+@media (min-width: 1200px) {
+  main a .button {
+    bottom: -240px;
+  }
+}
+
 @media (min-width: 1200px) {
   main a .button {
     bottom: -100px;
