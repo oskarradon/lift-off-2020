@@ -31,16 +31,18 @@ setInterval(updateTime, 500);
 
 // menu button
 
-// let dropdownBtn = document.querySelector('#talent');
-// let menuContent = document.querySelector('#drop-down');
-// dropdownBtn.addEventListener('click',() => {
-//    if(menuContent.style.display===""){
-//       menuContent.style.display="block";
-//       this.button.setAttribute('aria-expanded', true);
-//       this.menu.hidden = false;
-//    } else {
-//       menuContent.style.display="";
-//       this.button.setAttribute('aria-expanded', false);
-//       this.menu.hidden = true;
-//    }
-// })
+let button = document.querySelector('#talent');
+let menu = document.querySelector('#drop-down');
+button.addEventListener('click',() => {
+   if(menu.style.display===""){
+      menu.style.display="block";
+      button.setAttribute('aria-expanded', true);
+      menu.hidden = false;
+      document.querySelector('#caret').classList.add('rotated');
+   } else {
+      menu.style.display="";
+      button.setAttribute('aria-expanded', false);
+      menu.hidden = true;
+      document.querySelector('#caret').classList.remove('rotated');
+   }
+})

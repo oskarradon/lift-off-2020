@@ -3,6 +3,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative;
 }
 
 #pnca-logo {
@@ -44,21 +45,50 @@ nav {
 }
 
 @media (min-width: 800px) {
+  #buttons {
+    width: auto;
+  }
+
   #sign-up {
     width: auto;
   }
+
+  #buttons a {
+    float: none;
+    width: auto;
+  }
+
   #about, #sign-up {
-    margin: 0 0 15px;
+    margin: 0 15px 0 0;
   }
 }
 
 #drop-down {
-  /* display: none; */
+  display: none;
   max-height: 100vw;
   overflow: auto;
   background: #5F4BFF;
   filter: brightness(120%);
   position: absolute;
+  top: 180px;
+  right: 0;
+  z-index: 99;
+}
+
+#caret {
+  transform: rotate(-90deg);
+  display: inline-block;
+  transition: transform 1s linear;
+}
+
+.rotated {
+  transform: rotate(0deg);
+}
+
+@media (min-width: 800px) {
+  #drop-down {
+    top: 50px;
+  }
 }
 
 #drop-down a {
