@@ -254,7 +254,7 @@ main a .button {
 
 @media (min-width: 1200px) {
   main a .button {
-    bottom: -130px;
+    bottom: -100px;
   }
 }
 
