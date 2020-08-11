@@ -31,3 +31,4 @@ This is a static site I designed and developed as part of an internship with the
 - [ ] SEO?
 - [x] main article image on index page should be background image w/ crop so height varies less
 - [ ] Drop-down menu of each person's name
+- [ ] Make .buttons actual button elements
