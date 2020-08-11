@@ -17,7 +17,7 @@ nav {
 }
 
 #about:hover {
-  color: #7FABFA;
+  color: var(--color-bg);
 }
 
 #sign-up {
