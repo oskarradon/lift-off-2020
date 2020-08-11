@@ -60,7 +60,8 @@ body {
   margin-left: 10vw;
 }
 
-main a:hover article .portraits figure figcaption {
+main a:hover article .portraits figure figcaption,
+main a article .portraits figure figcaption {
   color: var(--color-text);
 }
 
