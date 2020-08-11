@@ -53,7 +53,47 @@ nav {
 }
 
 #drop-down {
-  display: none;
+  /* display: none; */
+  max-height: 100vw;
+  overflow: auto;
+  background: #5F4BFF;
+  filter: brightness(120%);
+  position: absolute;
+}
+
+#drop-down a {
+  padding: 15px;
+  font-weight: 600;
+  color: var(--color-text);
+  display: block;
+}
+
+#drop-down a:not(:last-child) {
+  border-bottom: 1px solid var(--color-bg);
+}
+
+#drop-down a:hover {
+  color: var(--color-bg);
+}
+
+/* width */
+#drop-down::-webkit-scrollbar {
+ width: 10px;
+}
+
+/* Track */
+#drop-down::-webkit-scrollbar-track {
+ background: #f1f1f1;
+}
+
+/* Handle */
+#drop-down::-webkit-scrollbar-thumb {
+ background: #888;
+}
+
+/* Handle on hover */
+#drop-down::-webkit-scrollbar-thumb:hover {
+ background: #555;
 }
 
 #data {

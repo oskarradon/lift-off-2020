@@ -31,16 +31,16 @@ setInterval(updateTime, 500);
 
 // menu button
 
-let dropdownBtn = document.querySelector('#talent');
-let menuContent = document.querySelector('#drop-down');
-dropdownBtn.addEventListener('click',() => {
-   if(menuContent.style.display===""){
-      menuContent.style.display="block";
-      this.button.setAttribute('aria-expanded', true);
-      this.menu.hidden = false;
-   } else {
-      menuContent.style.display="";
-      this.button.setAttribute('aria-expanded', false);
-      this.menu.hidden = true;
-   }
-})
+// let dropdownBtn = document.querySelector('#talent');
+// let menuContent = document.querySelector('#drop-down');
+// dropdownBtn.addEventListener('click',() => {
+//    if(menuContent.style.display===""){
+//       menuContent.style.display="block";
+//       this.button.setAttribute('aria-expanded', true);
+//       this.menu.hidden = false;
+//    } else {
+//       menuContent.style.display="";
+//       this.button.setAttribute('aria-expanded', false);
+//       this.menu.hidden = true;
+//    }
+// })
