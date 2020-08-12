@@ -10,6 +10,10 @@ nav {
   width: 100px;
 }
 
+#home {
+  background: #05C0F4;
+}
+
 #about {
   background: #7FFAC4;
 }
@@ -18,7 +22,7 @@ nav {
   color: var(--color-bg);
 }
 
-#about, #sign-up {
+#home, #about, #sign-up {
   margin-bottom: 15px;
 }
 
@@ -31,18 +35,32 @@ nav {
 }
 
 #buttons {
-  width: 128px;
+  width: 104px;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 #buttons a {
   float: right;
   text-align: center;
-  width: 100%
+  width: 100%;
+  font-size: 13px;
+}
+
+@media (min-width: 500px) {
+  #buttons {
+    width: 128px;
+  }
+  #buttons a {
+    font-size: 1em;
+  }
 }
 
 @media (min-width: 800px) {
   #buttons {
     width: auto;
+    position: static;
   }
 
   #sign-up {
@@ -54,21 +72,29 @@ nav {
     width: auto;
   }
 
-  #about, #sign-up {
+  #home, #about, #sign-up {
     margin: 0 15px 0 0;
   }
 }
 
 #drop-down {
   display: none;
-  max-height: calc(100vh - 195px);
-  max-height: calc(var(--vh, 1vh) * 100 - 195px);
+  max-height: calc(100vh - 246px);
+  max-height: calc(var(--vh, 1vh) * 100 - 246px);
   overflow: auto;
   background: #6956FF;
   position: absolute;
-  top: 180px;
+  top: 233px;
   right: 0;
   z-index: 999;
+}
+
+@media (min-width: 500px) {
+  #drop-down {
+    top: 242px;
+    max-height: calc(100vh - 257px);
+    max-height: calc(var(--vh, 1vh) * 100 - 257px);
+  }
 }
 
 #caret {
