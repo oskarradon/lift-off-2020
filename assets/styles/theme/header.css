@@ -62,7 +62,7 @@ nav {
 #drop-down {
   display: none;
   max-height: calc(100vh - 195px);
-  max-height: calc(var(--vh, 1vh) * 100);
+  max-height: calc(var(--vh, 1vh) * 100 - 195px);
   overflow: auto;
   background: #6956FF;
   position: absolute;
