@@ -56,7 +56,7 @@ body {
   transition: right 0.5s ease-out;
 }
 
-.button:hover:before, .button:focus:before, .button:active:before {
+.button:hover:before, .button:active:before {
   right: 0;
 }
 
