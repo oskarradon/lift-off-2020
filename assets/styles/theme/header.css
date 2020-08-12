@@ -10,10 +10,6 @@ nav {
   width: 100px;
 }
 
- {
-  align-self: center;
-}
-
 #about {
   background: #7FFAC4;
 }
@@ -117,32 +113,12 @@ nav {
   right: 100%;
   bottom: 0;
   background: var(--color-text);
-  height: 3px;
+  height: 3.5px;
   transition: right 0.5s ease-out;
 }
 
-#drop-down a:before, #drop-down a:before {
+#drop-down a:hover:before, #drop-down a:active:before {
   right: 0;
-}
-
-/* width */
-#drop-down::-webkit-scrollbar {
- width: 10px;
-}
-
-/* Track */
-#drop-down::-webkit-scrollbar-track {
- background: #f1f1f1;
-}
-
-/* Handle */
-#drop-down::-webkit-scrollbar-thumb {
- background: #888;
-}
-
-/* Handle on hover */
-#drop-down::-webkit-scrollbar-thumb:hover {
- background: #555;
 }
 
 #data {
