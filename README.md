@@ -34,4 +34,4 @@ This is a static site I designed and developed as part of an internship with the
   - [x] Caret rotating animation
   - [x] Test on mobile
   - [x] Button hover animation
-  - [ ] Menu height if mobile browser bottom bar is showing
+  - [x] Menu height if mobile browser bottom bar is showing - it updates on scroll up which is ugly but that's ok
