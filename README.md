@@ -19,7 +19,7 @@ This is a static site I designed and developed as part of an internship with the
   - [ ] Refactor colors into vars
   - [ ] ~Make right styled article~
 - [x] Implement spelling fixes site-wide
-- [ ] Design and develop About page
+- [x] Design and develop About page
 - [ ] Fix portfolio page on medium view widths (needs more breakpoints)
 - [ ] alt text for all images AAH!!
 - [ ] More multimedia content where possible
@@ -35,3 +35,4 @@ This is a static site I designed and developed as part of an internship with the
   - [x] Test on mobile
   - [x] Button hover animation
   - [x] Menu height if mobile browser bottom bar is showing - it updates on scroll up which is ugly but that's ok
+- [ ] Drop down menu is being forced to scroll @ large vw
