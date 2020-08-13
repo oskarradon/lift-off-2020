@@ -20,7 +20,8 @@ This is a static site I designed and developed as part of an internship with the
   - [ ] ~Make right styled article~
 - [x] Implement spelling fixes site-wide
 - [x] Design and develop About page
-- [ ] Fix portfolio page on medium view widths (needs more breakpoints)
+- [x] Fix portfolio page on medium view widths (needs more breakpoints)
+  - [ ] Perhaps too many breakpoints now lol
 - [ ] alt text for all images AAH!!
 - [ ] More multimedia content where possible
 - [x] Make all portrait img W:600px, portrait2 & 3 W:300px @ 72 DPI
