@@ -23,6 +23,7 @@
   background: white;
   position: relative;
   z-index: 99;
+  margin-bottom: 5em;
 }
 
 .bio p {
