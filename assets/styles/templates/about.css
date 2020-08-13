@@ -1,0 +1,234 @@
+#page-title {
+  font-family: var(--font-display);
+  color: var(--color-main);
+  line-height: 1em;
+  margin: 0;
+  font-size: 5em;
+  font-weight: normal;
+}
+
+@media (min-width: 800px) {
+  #page-title {
+    font-size: 15em;
+  }
+}
+
+#heart {
+  color: var(--color-main);
+}
+
+.bio {
+  padding: 2em;
+  background: white;
+  position: relative;
+  z-index: 99;
+}
+
+.bio p {
+  margin: 0;
+}
+
+.quote p span {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+}
+
+.quote p span:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  top: 5px;
+  left: -5px;
+  background: rgba(255, 61, 32, 0.7);
+  z-index: -1;
+}
+
+main p {
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+main p a {
+  color: var(--color-text);
+  text-decoration: none;
+  background-image: linear-gradient(var(--color-main), var(--color-main)),
+    linear-gradient(var(--color-acc2), var(--color-acc2));
+  background-size: 100% 2px, 0 2px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .5s linear;
+}
+
+main p a:hover {
+  background-size: 20px 2px, 0 2px, 100% 2px;
+  background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
+}
+
+main section {
+  max-width: 800px;
+  margin: 3em auto;
+}
+
+.info {
+  margin: 0 0 -5em;
+  position: relative;
+  z-index: 99;
+}
+
+@media (min-width: 800px) {
+  .info {
+    margin: 0 0 -44em;
+  }
+}
+
+.info .name {
+  font-family: var(--font-display);
+  color: var(--color-main);
+  line-height: 1em;
+  margin: 0;
+  font-size: 5em;
+  font-weight: normal;
+}
+
+@media (min-width: 800px) {
+  .info .name {
+    font-size: 15em;
+  }
+}
+
+.portrait {
+  width: 100%;
+  grid-column: 2 / span 3;
+}
+
+
+@media (min-width: 800px) {
+  .portrait {
+    grid-column: 3 / span 2;
+  }
+}
+
+.links {
+  background: url(/assets/img/bg/1.png) #E5EAF3;
+  list-style: none;
+  max-width: 480px;
+  padding: 0;
+  display: inline-block;
+}
+
+.info .links {
+  margin-top: 3em;
+  z-index: -99;
+  position: absolute;
+  bottom: -345px;
+}
+
+@media (min-width: 800px) {
+  .info .links {
+    position: relative;
+    bottom: -100px;
+  }
+}
+
+.links li {
+  padding: .5em;
+  font-weight: 500;
+  margin: 0;
+}
+
+.links li:not(:last-of-type) {
+  padding-bottom: 0;
+}
+
+@media (min-width: 800px) {
+  .links li {
+    font-size: 2em;
+  }
+}
+
+.links li a {
+  color: var(--color-acc2);
+  text-decoration: none;
+  background-image: linear-gradient(var(--color-main), var(--color-main)),
+    linear-gradient(var(--color-acc2), var(--color-acc2));
+  background-size: 100% 2px, 0 2px;
+  background-position: -100% -100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .5s linear;
+}
+
+.links li a:hover {
+  color: var(--color-main);
+  background-size: 20px 2px, 0 2px, 100% 2px;
+  background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
+}
+
+.links li p {
+  color: var(--color-acc);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  margin: 3px 0 0;
+}
+
+@media (min-width: 800px) {
+  .links li p {
+    font-size: 15px;
+  }
+}
+
+.keywords {
+  position: absolute;
+  color: var(--color-acc2);
+  font-family: var(--font-mono);
+  top: 10em;
+  left: 80vw;
+  z-index: -98;
+  line-height: 1.6em;
+  font-size: 10px;
+}
+
+@media (min-width: 800px) {
+  .keywords {
+    position: absolute;
+    color: #92A8E4;
+    font-family: var(--font-mono);
+    top: 10em;
+    left: 28em;
+    z-index: -98;
+    line-height: 1.6em;
+    font-size: 18px;
+  }
+}
+
+main section {
+  max-width: 800px;
+  margin: 3em auto;
+}
+
+main img {
+  margin: 3em 0;
+  width: 100%;
+}
+
+wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2em;
+}
+
+wrapper.grid {
+  background: url(/assets/img/bg/grid2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (min-width: 800px) {
+  wrapper.grid {
+    background: url(/assets/img/bg/grid.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
