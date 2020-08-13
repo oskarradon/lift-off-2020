@@ -10,6 +10,7 @@
 @media (min-width: 800px) {
   #page-title {
     font-size: 15em;
+    color: var(--color-acc2);
   }
 }
 
