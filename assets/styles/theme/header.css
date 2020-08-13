@@ -79,8 +79,8 @@ nav {
 
 #drop-down {
   display: none;
-  max-height: calc(100vh - 246px);
-  max-height: calc(var(--vh, 1vh) * 100 - 246px);
+  max-height: calc(100vh - 265px);
+  max-height: calc(var(--vh, 1vh) * 100 - 265px);
   overflow: auto;
   background: #6956FF;
   position: absolute;
@@ -92,8 +92,8 @@ nav {
 @media (min-width: 500px) {
   #drop-down {
     top: 242px;
-    max-height: calc(100vh - 257px);
-    max-height: calc(var(--vh, 1vh) * 100 - 257px);
+    max-height: calc(100vh - 80px);
+    max-height: calc(var(--vh, 1vh) * 100 - 80px);
   }
 }
 
