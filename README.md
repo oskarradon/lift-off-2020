@@ -23,6 +23,31 @@ This is a static site I designed and developed as part of an internship with the
 - [x] Fix portfolio page on medium view widths (needs more breakpoints)
   - [ ] Perhaps too many breakpoints now lol
 - [ ] alt text for all images AAH!!
+  - [ ] Index
+  - [ ] About
+  - [ ] Adrian
+  - [ ] Austin
+  - [ ] Blake
+  - [ ] Brian
+  - [ ] Cas
+  - [ ] Julie
+  - [ ] Justice
+  - [ ] Kalila
+  - [ ] Kara
+  - [ ] KD
+  - [ ] Kent
+  - [ ] Lauren
+  - [ ] Lydia
+  - [ ] Mallary
+  - [ ] Megan
+  - [ ] Misa
+  - [ ] Paola
+  - [ ] Sasha
+  - [ ] Savanna
+  - [ ] Tali
+  - [ ] Tom
+  - [ ] Trung
+  - [ ] Zoë
 - [ ] More multimedia content where possible
 - [x] Make all portrait img W:600px, portrait2 & 3 W:300px @ 72 DPI
 - [ ] Test page load speed
@@ -37,3 +62,4 @@ This is a static site I designed and developed as part of an internship with the
   - [x] Button hover animation
   - [x] Menu height if mobile browser bottom bar is showing - it updates on scroll up which is ugly but that's ok
 - [ ] Drop down menu is being forced to scroll @ large vw
+- [ ] Browser compatibility
