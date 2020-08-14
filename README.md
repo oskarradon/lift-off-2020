@@ -25,13 +25,13 @@ This is a static site I designed and developed as part of an internship with the
 - [ ] alt text for all images AAH!!
   - [ ] Index
   - [ ] About
-  - [ ] Adrian
-  - [ ] Austin
-  - [ ] Blake
+  - [x] Adrian
+  - [x] Austin
+  - [x] Blake
   - [ ] Brian
-  - [ ] Cas
+  - [x] Cas
   - [ ] Julie
-  - [ ] Justice
+  - [x] Justice
   - [ ] Kalila
   - [ ] Kara
   - [ ] KD
