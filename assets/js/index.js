@@ -39,7 +39,6 @@ button.addEventListener('click', () => {
       button.setAttribute('aria-expanded', true);
       menu.hidden = false;
       document.querySelector('#caret').classList.add('rotated');
-      console.log(document.querySelector('#caret').classList);
    } else {
       menu.style.display="";
       button.setAttribute('aria-expanded', false);
@@ -58,3 +57,22 @@ window.addEventListener('resize', () => {
   let vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty('--vh', `${vh}px`);
 });
+
+
+// show return to top button after scrolling 500 px
+// from: https://css-tricks.com/styling-based-on-scroll-position/
+
+if (
+  "IntersectionObserver" in window &&
+  "IntersectionObserverEntry" in window &&
+  "intersectionRatio" in window.IntersectionObserverEntry.prototype
+) {
+let observer = new IntersectionObserver(entries => {
+  if (entries[0].boundingClientRect.y < 0) {
+    document.querySelector('#return-to-top').classList.add('button-showing');
+  } else {
+    document.querySelector('#return-to-top').classList.remove('button-showing');
+  }
+});
+observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
+}
