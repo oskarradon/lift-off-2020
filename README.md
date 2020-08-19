@@ -30,7 +30,7 @@ This is a static site I designed and developed as part of an internship with the
   - [x] Blake
   - [ ] Brian
   - [x] Cas
-  - [ ] Julie
+  - [x] Julie
   - [x] Justice
   - [ ] Kalila
   - [ ] Kara
