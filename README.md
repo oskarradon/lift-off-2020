@@ -38,16 +38,16 @@ This is a static site I designed and developed as part of an internship with the
   - [x] Kent
   - [x] Lauren
   - [x] Lydia
-  - [ ] Mallary
-  - [ ] Megan
-  - [ ] Misa
-  - [ ] Paola
-  - [ ] Sasha
-  - [ ] Savanna
-  - [ ] Tali
-  - [ ] Tom
-  - [ ] Trung
-  - [ ] Zoë
+  - [x] Mallary
+  - [x] Megan
+  - [x] Misa
+  - [x] Paola
+  - [x] Sasha
+  - [x] Savanna
+  - [x] Tali
+  - [x] Tom
+  - [x] Trung
+  - [x] Zoë
 - [ ] More multimedia content where possible
 - [x] Make all portrait img W:600px, portrait2 & 3 W:300px @ 72 DPI
 - [ ] Test page load speed
