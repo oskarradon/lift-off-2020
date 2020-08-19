@@ -1,5 +1,5 @@
 body {
-  background: url(/assets/img/bg/lift-off.svg) var(--color-bg);
+  background: url(/assets/img/bg/lift-off.svg) var(--yellow);
   background-repeat: no-repeat;
   background-size: 105vw;
 }
@@ -9,12 +9,12 @@ body {
 }
 
 #description .bar {
-  background: url(/assets/img/bg/1.png) var(--color-main);
+  background: url(/assets/img/bg/1.png) var(--red);
   background-position: bottom;
   font-size: 1.6em;
   padding: .5em;
   text-transform: uppercase;
-  color: var(--color-bg);
+  color: var(--yellow);
   text-shadow:
 		-1px -1px 0 #000,
 		1px -1px 0 #000,
@@ -80,7 +80,7 @@ body {
 
 main a:hover article .portraits figure figcaption,
 main a article .portraits figure figcaption {
-  color: var(--color-text);
+  color: var(--grey);
 }
 
 main a article {

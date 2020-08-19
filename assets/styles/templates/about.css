@@ -1,6 +1,6 @@
 #page-title {
   font-family: var(--font-display);
-  color: var(--color-main);
+  color: var(--red);
   line-height: 1em;
   margin: 0;
   font-size: 5em;
@@ -15,7 +15,7 @@
 }
 
 #heart {
-  color: var(--color-main);
+  color: var(--red);
 }
 
 .bio {
@@ -54,9 +54,9 @@ main p {
 }
 
 main p a {
-  color: var(--color-text);
+  color: var(--grey);
   text-decoration: none;
-  background-image: linear-gradient(var(--color-main), var(--color-main)),
+  background-image: linear-gradient(var(--red), var(--red)),
     linear-gradient(var(--color-acc2), var(--color-acc2));
   background-size: 100% 2px, 0 2px;
   background-position: 100% 100%, 0 100%;
@@ -88,7 +88,7 @@ main section {
 
 .info .name {
   font-family: var(--font-display);
-  color: var(--color-main);
+  color: var(--red);
   line-height: 1em;
   margin: 0;
   font-size: 5em;
@@ -154,7 +154,7 @@ main section {
 .links li a {
   color: var(--color-acc2);
   text-decoration: none;
-  background-image: linear-gradient(var(--color-main), var(--color-main)),
+  background-image: linear-gradient(var(--red), var(--red)),
     linear-gradient(var(--color-acc2), var(--color-acc2));
   background-size: 100% 2px, 0 2px;
   background-position: -100% -100%, 0 100%;
@@ -163,7 +163,7 @@ main section {
 }
 
 .links li a:hover {
-  color: var(--color-main);
+  color: var(--red);
   background-size: 20px 2px, 0 2px, 100% 2px;
   background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
 }
