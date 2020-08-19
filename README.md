@@ -35,9 +35,9 @@ This is a static site I designed and developed as part of an internship with the
   - [x] Kalila
   - [x] Kara
   - [x] KD
-  - [ ] Kent
-  - [ ] Lauren
-  - [ ] Lydia
+  - [x] Kent
+  - [x] Lauren
+  - [x] Lydia
   - [ ] Mallary
   - [ ] Megan
   - [ ] Misa
