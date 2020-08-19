@@ -88,11 +88,13 @@ body {
   right: 15px;
   background: #6956FF;
   display: none;
+  font-size: 13px;
 }
 
 @media (min-width: 600px) {
   #return-to-top {
     top: calc(50vh - 50px);
+    font-size: 1em;
   }
 }
 
