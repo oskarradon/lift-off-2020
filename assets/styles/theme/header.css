@@ -10,30 +10,6 @@ nav {
   width: 100px;
 }
 
-#home {
-  background: #05C0F4;
-}
-
-#about {
-  background: #7FFAC4;
-}
-
-#about:hover, #talent:hover {
-  color: var(--color-bg);
-}
-
-#home, #about, #sign-up {
-  margin-bottom: 15px;
-}
-
-#sign-up {
-  width: 64px;
-}
-
-#talent {
-  background: #6956FF;
-}
-
 #buttons {
   width: 104px;
   position: absolute;
@@ -45,15 +21,12 @@ nav {
   float: right;
   text-align: center;
   width: 100%;
-  font-size: 13px;
+  margin-top: 5px;
 }
 
 @media (min-width: 500px) {
   #buttons {
     width: 128px;
-  }
-  #buttons a {
-    font-size: 1em;
   }
 }
 
@@ -115,7 +88,7 @@ nav {
 #drop-down a {
   padding: 15px;
   font-weight: 500;
-  color: var(--color-text);
+  color: var(--grey);
   display: block;
   vertical-align: middle;
   transform: perspective(1px) translateZ(0);
@@ -125,11 +98,11 @@ nav {
 }
 
 #drop-down a:not(:last-child) {
-  border-bottom: 1px solid var(--color-bg);
+  border-bottom: 1px solid var(--yellow);
 }
 
 #drop-down a:hover {
-  color: var(--color-bg);
+  color: var(--yellow);
 }
 
 #drop-down a:before {
@@ -139,7 +112,7 @@ nav {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: var(--color-text);
+  background: var(--grey);
   height: 3.5px;
   transition: right 0.5s ease-out;
 }
@@ -157,9 +130,9 @@ nav {
 }
 
 #data a span {
-  color: var(--color-text);
+  color: var(--grey);
   text-decoration: none;
-  background-image: linear-gradient(var(--color-main), var(--color-main)),
+  background-image: linear-gradient(var(--red), var(--red)),
     linear-gradient(var(--color-acc2), var(--color-acc2));
   background-size: 100% 2px, 0 2px;
   background-position: 100% 100%, 0 100%;
@@ -168,7 +141,7 @@ nav {
 }
 
 #data a span:hover {
-  color: var(--color-main);
+  color: var(--red);
   background-size: 20px 2px, 0 2px, 100% 2px;
   background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
 }

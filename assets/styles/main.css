@@ -5,11 +5,11 @@
 @import 'theme/footer.css';
 
 a:visited {
-  color: var(--color-text);
+  color: var(--grey);
 }
 
 a:hover {
-  color: var(--color-main);
+  color: var(--red);
 }
 
 a {
@@ -20,45 +20,54 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 15px;
-  color: var(--color-text);
+  color: var(--grey);
   font-family: var(--font-sans);
-  background: var(--color-bg);
+  background: var(--yellow);
   min-height: -webkit-fill-available;
 }
 
 .button {
-  background: var(--color-main);
-  padding: 15px;
+  padding: 10px;
   text-transform: uppercase;
   font-weight: 600;
-  color: var(--color-text);
+  color: var(--grey);
   display: inline-block;
   vertical-align: middle;
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
+  background: var(--off-white);
+  font-size: 13px;
 }
 
-.button:hover, .button:active {
-  color: var(--color-bg);
-  cursor: pointer;
-}
+@media (min-width: 800px) {
+  .button {
+    background: none;
+    font-size: 1em;
+  }
 
-.button:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  right: 100%;
-  bottom: 0;
-  background: var(--color-text);
-  height: 3px;
-  transition: right 0.5s ease-out;
-}
+  .button:hover, .button:active {
+    background: var(--off-white);
+    color: var(--red);
+    cursor: pointer;
+  }
 
-.button:hover:before, .button:active:before {
-  right: 0;
+  .button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: var(--grey);
+    height: 3px;
+    transition: right 0.5s ease-out;
+  }
+
+  .button:hover:before, .button:active:before {
+    right: 0;
+  }
 }
 
 .portraits figure {
@@ -86,9 +95,7 @@ body {
   z-index: 999;
   top: 15px;
   right: 15px;
-  background: #6956FF;
   display: none;
-  font-size: 13px;
 }
 
 @media (min-width: 600px) {

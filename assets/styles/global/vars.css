@@ -1,7 +1,8 @@
 :root {
-  --color-bg:     #FBE968;
-  --color-main:   #FF3D20;
-  --color-text:   #222;
+  --yellow:       #FBE968;
+  --red:          #FD3D20;
+  --grey:         #222;
+  --off-white:    #FCF7D2;
   --color-acc:    #F15A31; /* accent */
   --color-acc2:   #92A8E4;
 
