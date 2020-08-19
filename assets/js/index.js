@@ -39,11 +39,13 @@ button.addEventListener('click', () => {
       button.setAttribute('aria-expanded', true);
       menu.hidden = false;
       document.querySelector('#caret').classList.add('rotated');
+      document.querySelector('#talent').classList.add('toggled');
    } else {
       menu.style.display="";
       button.setAttribute('aria-expanded', false);
       menu.hidden = true;
       document.querySelector('#caret').classList.remove('rotated');
+      document.querySelector('#talent').classList.remove('toggled');
    }
 })
 
