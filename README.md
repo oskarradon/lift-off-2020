@@ -28,13 +28,13 @@ This is a static site I designed and developed as part of an internship with the
   - [x] Adrian
   - [x] Austin
   - [x] Blake
-  - [ ] Brian
+  - [ ] Brian - missing
   - [x] Cas
   - [x] Julie
   - [x] Justice
-  - [ ] Kalila
-  - [ ] Kara
-  - [ ] KD
+  - [x] Kalila
+  - [x] Kara
+  - [x] KD
   - [ ] Kent
   - [ ] Lauren
   - [ ] Lydia
