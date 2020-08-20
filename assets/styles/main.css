@@ -100,7 +100,7 @@ body {
 
 @media (min-width: 600px) {
   #return-to-top {
-    top: calc(50vh - 50px);
+    /* top: calc(50vh - 50px); */
     font-size: 1em;
   }
 }
