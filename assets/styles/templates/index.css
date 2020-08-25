@@ -4,14 +4,22 @@ body {
   background-size: 105vw;
 }
 
-#description {
+#intro {
   margin-bottom: 7em;
+  position: relative;
+  height: 273.2px;
 }
 
-#description .bar {
-  background: url(/assets/img/bg/1.png) var(--red);
-  background-position: bottom;
+#text-container {
+  position: absolute;
+  z-index: 99;
+  width: calc(100vw - 30px);
+  max-width: 1200px;
+}
+
+#intro .text {
   font-size: 1.6em;
+  max-width: 1200px;
   padding: .5em;
   text-transform: uppercase;
   color: var(--yellow);
@@ -23,19 +31,44 @@ body {
 }
 
 @media (min-width: 800px) {
-  #description .bar-2 {
+  #intro {
+    height: 770px;
+  }
+
+  #intro .text-2 {
     display: grid;
     grid-gap: 1em;
     grid-template-columns: 1fr 1fr;
   }
 
-  #description .bar {
+  #intro .text {
     font-size: 3em;
     padding: 1em;
   }
 }
 
-#description #launching {
+#bars {
+  position: absolute;
+  z-index: -99;
+}
+
+#intro .bar {
+  background: url(/assets/img/bg/1.png) var(--red);
+  background-position: bottom;
+  height: 57.6px;
+  width: calc(100vw - 30px);
+  max-width: 1200px;
+}
+
+@media (min-width: 800px) {
+  #intro .bar {
+    height: 154px;
+  }
+}
+
+
+
+/* #description #launching {
   margin-right: 20vw;
 }
 
@@ -76,7 +109,7 @@ body {
   #description #next {
     margin-left: 15vw;
   }
-}
+} */
 
 main a:hover article .portraits figure figcaption,
 main a article .portraits figure figcaption {
