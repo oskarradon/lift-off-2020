@@ -241,7 +241,7 @@ main a .button {
   position: absolute;
   z-index: 2;
   top: 15%;
-  min-width: 108px;
+  min-width: 88px;
   right: 15px;
 }
 
