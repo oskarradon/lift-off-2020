@@ -66,50 +66,78 @@ body {
   }
 }
 
+#bars #bar1 {
+  width: 503px;
+}
 
+#intro #bars #bar2 {
+  background-position: top 2000px right;
+  width: 561px;
+}
 
-/* #description #launching {
+#intro #bars #bar3 {
+  background-position: bottom 1000px right;
+  /* width: 812px; */
+}
+
+#intro #bars #bar4 {
+  background-position: top 1000px right;
+  width: 400px;
+}
+
+#intro #bars #bar5 {
+  background-position: top 2000px left;
+  width: calc(1200px - 10vw);
+}
+
+#intro #launching, #bars #bar1 {
   margin-right: 20vw;
 }
 
-#description #next {
+#intro #next, #bars #bar2 {
   margin-left: 10vw;
 }
 
-#description #designers {
+#intro #designers, #bars #bar3 {
   margin-right: 30vw;
 }
 
-#description #and {
-  display: inline;
+#intro #and {
+  display: inline-block;
+}
+
+#intro #and, #bars #bar4 {
   margin-left: 26vw;
 }
 
-#description #illustrators {
+#intro #illustrators, #bars #bar5 {
   margin-right: 10vw;
   margin-left: 10vw;
 }
 
 @media (min-width: 800px) {
-  #description #next {
-    margin-left: 24vw;
-    display: inline;
+  #intro #next {
+    display: inline-block;
   }
 
-  #description #designers {
+  #intro #next, #bars #bar2 {
+    margin-left: 24vw;
+  }
+
+  #intro #designers, #bars #bar3 {
     margin-right: 20vw;
   }
 
-  #description #and {
+  #intro #and, #bars #bar4 {
     margin-left: 15vw;
   }
 }
 
 @media (min-width: 1200px) {
-  #description #next {
+  #intro #next, #bars #bar2 {
     margin-left: 15vw;
   }
-} */
+}
 
 main a:hover article .portraits figure figcaption,
 main a article .portraits figure figcaption {
