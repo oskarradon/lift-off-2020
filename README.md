@@ -22,13 +22,13 @@ This is a static site I designed and developed as part of an internship with the
 - [x] Design and develop About page
 - [x] Fix portfolio page on medium view widths (needs more breakpoints)
   - [ ] Perhaps too many breakpoints now lol
-- [ ] alt text for all images ~AAH!!~
-  - [ ] Index
-  - [ ] About
+- [x] alt text for all images ~AAH!!~
+  - [x] Index
+  - [x] About
   - [x] Adrian
   - [x] Austin
   - [x] Blake
-  - [ ] Brian - missing
+  - [x] Brian - missing
   - [x] Cas
   - [x] Julie
   - [x] Justice
