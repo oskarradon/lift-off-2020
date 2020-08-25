@@ -4,6 +4,10 @@ body {
   background-size: 105vw;
 }
 
+canvas#c {
+  height: 100px;
+}
+
 #description {
   margin-bottom: 7em;
 }

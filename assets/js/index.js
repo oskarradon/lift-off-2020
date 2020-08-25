@@ -1,3 +1,38 @@
+import * as THREE from '../js/modules/three.module.js';
+
+// threeJS
+
+
+
+const canvas = document.querySelector('#c');
+const renderer = new THREE.WebGLRenderer({alpha: true, canvas});
+
+var scene = new THREE.Scene();
+scene.background = null;
+
+const fov = 75;
+const aspect = 2;  // the canvas default
+const near = 0.1;
+const far = 5;
+const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
+camera.position.z = 2;
+
+var geometry = new THREE.BoxGeometry();
+var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+var cube = new THREE.Mesh( geometry, material );
+scene.add( cube );
+
+var animate = function () {
+	requestAnimationFrame( animate );
+
+	cube.rotation.x += 0.01;
+	cube.rotation.y += 0.01;
+
+	renderer.render( scene, camera );
+};
+
+animate();
+
 // clock
 
 function twoDigits(n){
