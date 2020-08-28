@@ -334,14 +334,14 @@ img.left, img.right, img.full, img.two-up {
   }
 }
 
-/* @media (min-width: 1200px) {
+@media (min-width: 1200px) {
   #big-quote {
     max-width: none;
   }
   #big-quote h2 {
     font-size: 7em;
   }
-} */
+}
 
 .l-quote, .r-quote {
   position: absolute;
