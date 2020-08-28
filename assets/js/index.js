@@ -1,80 +1,24 @@
-// clock
+document.addEventListener("DOMContentLoaded", function() {
 
-function twoDigits(n){
-  if(n < 10)
-    return '0' + n; // Add leading zero
-  return n;
-}
+  let tl1 = gsap.timeline({defaults: {delay: .5, duration: 2, opacity: 0}}),
+      tl2 = gsap.timeline({defaults: {delay: .5, duration: 2, opacity: 0}});
 
-function updateTime(){
-  var today = new Date();
-  var hr = twoDigits(today.getHours());
-  var min = twoDigits(today.getMinutes());
-  var sec = twoDigits(today.getSeconds());
-  var ap = (hr < 12) ? "<span>AM</span>" : "<span>PM</span>";
-  hr = (hr == 0) ? 12 : hr;
-  hr = (hr > 12) ? hr - 12 : hr;
+  tl1.from("#launching", {x: -100})
+     .from("#next", {x: 800}, .25)
+     .from("#designers", {x: -800}, .25)
+     .from("#and", {x: -1200}, .25)
+     .from("#illustrators", {x: -400}, .25)
 
-  var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-  var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-  var curWeekDay = days[today.getDay()];
-  var curDay = today.getDate();
-  var curMonth = months[today.getMonth()];
-  var curYear = today.getFullYear();
-  var date = curWeekDay+", "+curMonth+" "+curDay+" "+curYear;
+  tl2.from("#bar1", {x: 1200})
+     .from("#bar2", {x: -800}, .25)
+     .from("#bar3", {x: 200}, .25)
+     .from("#bar4", {x: 800}, .25)
+     .from("#bar5", {x: 400}, .25)
 
-  document.getElementById("clock").innerHTML = date + "<br>" + hr + ":" + min + ":" + sec + " " + ap;
-}
-setInterval(updateTime, 500);
+gsap.from("#bar1", {backgroundPosition: "2247px 0px", duration: 30, ease: Linear.easeNone, repeat: -1})
+gsap.from("#bar2", {backgroundPosition: "-2247px 2000px", duration: 30, ease: Linear.easeNone, repeat: -1})
+gsap.from("#bar3", {backgroundPosition: "4000px 0px", duration: 30, ease: Linear.easeNone, repeat: -1})
+gsap.from("#bar4", {backgroundPosition: "-2247px 1000px", duration: 30, ease: Linear.easeNone, repeat: -1})
+gsap.from("#bar5", {backgroundPosition: "2247px 2000px", duration: 30, ease: Linear.easeNone, repeat: -1})
 
-
-
-// menu button
-
-let button = document.querySelector('#talent');
-let menu = document.querySelector('#drop-down');
-button.addEventListener('click', () => {
-   if(  menu.style.display === "" ) {
-      menu.style.display="block";
-      button.setAttribute('aria-expanded', true);
-      menu.hidden = false;
-      document.querySelector('#caret').classList.add('rotated');
-      document.querySelector('#talent').classList.add('toggled');
-   } else {
-      menu.style.display="";
-      button.setAttribute('aria-expanded', false);
-      menu.hidden = true;
-      document.querySelector('#caret').classList.remove('rotated');
-      document.querySelector('#talent').classList.remove('toggled');
-   }
-})
-
-
-// resizing drop-down menu if mobile bottom nav is showing
-
-let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', `${vh}px`);
-
-window.addEventListener('resize', () => {
-  let vh = window.innerHeight * 0.01;
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
 });
-
-
-// show return to top button after scrolling 500 px
-// from: https://css-tricks.com/styling-based-on-scroll-position/
-
-if (
-  "IntersectionObserver" in window &&
-  "IntersectionObserverEntry" in window &&
-  "intersectionRatio" in window.IntersectionObserverEntry.prototype
-) {
-let observer = new IntersectionObserver(entries => {
-  if (entries[0].boundingClientRect.y < 0) {
-    document.querySelector('#return-to-top').classList.add('button-showing');
-  } else {
-    document.querySelector('#return-to-top').classList.remove('button-showing');
-  }
-});
-observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
-}

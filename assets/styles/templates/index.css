@@ -4,14 +4,23 @@ body {
   background-size: 105vw;
 }
 
-#description {
+/* INTRO SECTION */
+
+#intro {
   margin-bottom: 7em;
+  position: relative;
+  height: 273.2px;
 }
 
-#description .bar {
-  background: url(/assets/img/bg/1.png) var(--red);
-  background-position: bottom;
-  font-size: 1.6em;
+#text-container {
+  position: absolute;
+  z-index: 99;
+  margin: 0 auto;
+}
+
+#intro .text {
+  font-size: 1.3em;
+  max-width: 1200px;
   padding: .5em;
   text-transform: uppercase;
   color: var(--yellow);
@@ -22,59 +31,144 @@ body {
 		1px 1px 0 #000;
 }
 
-@media (min-width: 800px) {
-  #description .bar-2 {
+@media (min-width: 500px) {
+  #intro .text {
+    font-size: 1.6em;
+  }
+
+  #intro .text-2 {
     display: grid;
     grid-gap: 1em;
     grid-template-columns: 1fr 1fr;
   }
+}
 
-  #description .bar {
+@media (min-width: 800px) {
+  #intro {
+    height: 770px;
+  }
+
+  #intro .text {
     font-size: 3em;
     padding: 1em;
   }
 }
 
-#description #launching {
-  margin-right: 20vw;
+#bars {
+  position: absolute;
+  z-index: -99;
+  width: calc(100vw - 30px);
+  max-width: 1200px;
 }
 
-#description #next {
-  margin-left: 10vw;
+#intro .bar {
+  background: url(/assets/img/bg/1.png) var(--red);
+  background-position: bottom;
+  height: 46.8px;
+  /* width: calc(100vw - 45px); */
+  max-width: calc(100vw - 45px);
 }
 
-#description #designers {
-  margin-right: 30vw;
+#bars #bar1 {
+  width: 200px;
 }
 
-#description #and {
-  display: inline;
-  margin-left: 26vw;
+#next, #bars #bar2 {
+  margin-left: 20px;
+  max-width: calc(100vw - 45px - 20px);
 }
 
-#description #illustrators {
-  margin-right: 10vw;
-  margin-left: 10vw;
+#bars #bar2 {
+  background-position: top 2000px right;
+  width: 222px;
+}
+
+#bars #bar3 {
+  background-position: bottom 1000px right;
+}
+
+#bars #bar4 {
+  background-position: top 1000px right;
+  width: 65px;
+}
+
+#and, #bars #bar4 {
+  margin-left: 90px;
+}
+
+#bars #bar5 {
+  background-position: top 2000px left;
+  width: 180px;
+}
+
+@media (min-width: 500px) {
+  #intro .bar {
+    height: 57.6px;
+  }
+
+  #bars #bar1 {
+    width: 245px;
+  }
+
+  #bars #bar2 {
+    width: 415px;
+  }
+
+  #designers, #bars #bar3 {
+    margin-left: 100px;
+    max-width: calc(100vw - 45px - 100px);
+  }
+
+  #and, #bars #bar4 {
+    margin-left: 160px;
+  }
+
+  #bars #bar4 {
+    width: 80px;
+  }
+
+  #illustrators, #bars #bar5 {
+    margin-left: 120px;
+  }
+
+  #bars #bar5 {
+    width: 220px;
+  }
 }
 
 @media (min-width: 800px) {
-  #description #next {
-    margin-left: 24vw;
-    display: inline;
+  #intro .bar {
+    height: 154px;
   }
 
-  #description #designers {
-    margin-right: 20vw;
+  #bars #bar1 {
+    width: 505px;
   }
 
-  #description #and {
-    margin-left: 15vw;
+  #next, #bars #bar2 {
+    margin-left: 300px;
   }
-}
 
-@media (min-width: 1200px) {
-  #description #next {
-    margin-left: 15vw;
+  #bars #bar2 {
+    width: 783px;
+    max-width: calc(100vw - 45px - 300px);
+  }
+
+  #designers, #bars #bar3 {
+    margin-left: 120px;
+    max-width: calc(100vw - 45px - 120px);
+  }
+
+  #and, #bars #bar4 {
+    margin-left: 300px;
+  }
+
+  #bars #bar4 {
+    width: 200px;
+  }
+
+  #bars #bar5 {
+    width: 460px;
   }
 }
 
