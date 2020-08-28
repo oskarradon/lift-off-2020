@@ -146,21 +146,21 @@ body {
   }
 
   #next, #bars #bar2 {
-    margin-left: 100px;
+    margin-left: 300px;
   }
 
   #bars #bar2 {
     width: 783px;
-    max-width: calc(100vw - 45px - 100px);
+    max-width: calc(100vw - 45px - 300px);
   }
 
   #designers, #bars #bar3 {
-    margin-left: 200px;
-    max-width: calc(100vw - 45px - 200px);
+    margin-left: 120px;
+    max-width: calc(100vw - 45px - 120px);
   }
 
   #and, #bars #bar4 {
-    margin-left: 500px;
+    margin-left: 300px;
   }
 
   #bars #bar4 {
